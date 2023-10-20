@@ -127,41 +127,11 @@ const SideContent = (props: Props) => {
           <>
             <SideNavSubHeading short="Notes" long="Notes" />
             <SideNavLink
-              link={`/${props.space}/new-note`}
-              icon={faPlus}
-              label="New note"
-            />
-            <SideNavLink
               link={`/${props.space}/browse`}
               icon={faFolderOpen}
               label="Browse"
             />
-            <SideNavLink
-              link={`/${props.space}/search`}
-              icon={faSearch}
-              label="Search"
-            />
-            <SideNavLink
-              link={`/${props.space}/graph`}
-              icon={faCircleNodes}
-              label="Graph"
-            />
             <SideNavSubHeading short="System" long="System" />
-            <SideNavLink
-              link={`/${props.space}/color-filter`}
-              icon={faPalette}
-              label="Color filter"
-            />
-            <SideNavLink
-              link={`/${props.space}/metadata-definition`}
-              icon={faListUl}
-              label="Metadata"
-            />
-            <SideNavLink
-              link={`/${props.space}/stopwords`}
-              icon={faStrikethrough}
-              label="Stopwords"
-            />
             <SideNavLink
               link={`/${props.space}/settings/company`}
               icon={faCogs}
